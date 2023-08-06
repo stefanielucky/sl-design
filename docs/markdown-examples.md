@@ -1,85 +1,61 @@
-# Markdown Extension Examples
+---
+aside: false
+---
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+<MobileModule/>
 
-## Syntax Highlighting
+<div class="mobile-content">
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+# 111
+# 111
+# 111
+# 111
+# 111
 
-**Input**
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
 
-````
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
 
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
+```js
+console.log('Hello, VitePress!')
 ```
 
-## Custom Containers
 
-**Input**
+# 222
+# 222
+# 222
+# 222
+# 222
+# 222
 
-```md
-::: info
-This is an info box.
-:::
 
-::: tip
-This is a tip.
-:::
+# 111
+# 111
+# 111
+# 111
+# 111
 
-::: warning
-This is a warning.
-:::
+# 222
+# 222
+# 222
+# 222
+# 222
+# 222
 
-::: danger
-This is a dangerous warning.
-:::
+# 111
+# 111
+# 111
+# 111
+# 111
 
-::: details
-This is a details block.
-:::
-```
+# 222
+# 222
+# 222
+# 222
+# 222
+# 222
 
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+</div>
