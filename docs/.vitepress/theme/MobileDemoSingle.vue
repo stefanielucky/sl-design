@@ -36,13 +36,22 @@
 
 <style scoped>
 .mobile-demo-single{
-  width: 385px;
-  height: 600px;
+  width: 375px;
+  height: calc(100vh - 150px);
   padding: 10px;
-  background-color: beige;
+  background-color: #f6f6f7;
+  border-radius: 16px;
+
   position: fixed;
   right: 40px;
   top: 100px;
+
   overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.mobile-demo-single::-webkit-scrollbar {
+  display: none;
 }
 </style>
