@@ -1,6 +1,7 @@
 ---
 aside: false
-footer: true
+prev: false
+next: false
 ---
 
 <script setup>
