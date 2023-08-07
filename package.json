@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "mand-mobile-next": "0.0.1-alpha.14",
     "sass": "^1.64.2"
   },
   "devDependencies": {
