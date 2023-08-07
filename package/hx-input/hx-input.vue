@@ -58,9 +58,9 @@ defineExpose({
 
 <style scoped lang="scss">
 .hxInput {
-  :deep(.md-field-item-title) {
-    color: blueviolet;
-  }
+  // :deep(.md-field-item-title) {
+  //   color: blueviolet;
+  // }
 
   // :deep(.md-input-item-input) {
   //   color: var(--md-input-item-color);

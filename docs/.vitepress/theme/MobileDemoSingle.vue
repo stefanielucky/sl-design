@@ -21,11 +21,12 @@ const props = defineProps(['list'])
   width: 750px;
   height: 1440px;
   transform: scale(0.5);
-  background-color: #f6f6f7;
+  background-color: #f7f8fa;
   border-radius: 36px;
   position: fixed;
   right: -100px;
   top: -260px;
+  padding-bottom: 200px;
 
   overflow-y: scroll;
   -ms-overflow-style: none;  /* IE and Edge */
