@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import MobileDemoSingle from './MobileDemoSingle.vue'
-// import Hxdesign from '../../../package/index.js'
+import Hxdesign from '../../../package/index.js'
+import 'mand-mobile-next/dist/lib/mand-mobile-next.min.css'
 
 import './custom.scss'
 
@@ -10,7 +11,7 @@ export default {
     // register your custom global components
 
     // console.log('Hxdesign', Hxdesign)
-    // ctx.app.use(Hxdesign)
+    ctx.app.use(Hxdesign)
     ctx.app.component('MobileDemoSingle', MobileDemoSingle)
   }
 }

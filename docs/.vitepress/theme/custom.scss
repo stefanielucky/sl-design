@@ -1,3 +1,10 @@
+
+// 修改主题颜色
+:root {
+  --vp-c-bg: #f7f8fa;
+  --vp-c-bg-alt: #fff;
+}
+
 /* 使用mobile-demo-single，需修改doc展示宽度 */
 .vp-doc{
   position: relative;
