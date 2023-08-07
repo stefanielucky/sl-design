@@ -1,0 +1,33 @@
+/* 使用mobile-demo-single，需修改doc展示宽度 */
+.vp-doc{
+  position: relative;
+  max-width: calc(100vw - 920px);
+  min-height: 1000px;
+}
+
+.content{
+  padding: 0;
+}
+
+/* 侧边栏边距修改 */
+.VPSidebar{
+  padding-left: 32px !important;
+  width: 260px !important;
+}
+
+.title{
+  padding-left: 16px !important;
+  width: 220px !important;
+}
+
+.VPContent{
+  padding-left: 260px !important;
+}
+
+.VPNavBar.has-sidebar .content{
+  padding-left: 260px !important;
+}
+
+.VPNavBar.has-sidebar .curtain{
+  left: 260px;
+}

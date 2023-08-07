@@ -2,7 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import MobileDemoSingle from './MobileDemoSingle.vue'
 // import Hxdesign from '../../../package/index.js'
 
-import './custom.css'
+import './custom.scss'
 
 export default {
   extends: DefaultTheme,
