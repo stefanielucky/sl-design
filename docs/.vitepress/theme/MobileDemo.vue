@@ -1,5 +1,5 @@
 <template>
-  <div class="mobile-template">
+  <div class="mobile-demo">
     <h1>这是一个全局组件</h1>
     <h1>这是一个全局组件</h1>
     <h1>这是一个全局组件</h1>
@@ -14,7 +14,7 @@
 </script>
 
 <style scoped>
-.mobile-template{
+.mobile-demo{
   width: 385px;
   height: 750px;
   padding: 10px;

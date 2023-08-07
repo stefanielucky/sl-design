@@ -2,3 +2,18 @@
     width: 600px;
     background-color: bisque;
 }
+
+.VPDocFooter{
+  display: none;
+}
+
+/* 使用mobile-demo-single，需修改doc展示宽度 */
+.vp-doc{
+  position: relative;
+  max-width: calc(100vw - 890px);
+  min-height: 1000px;
+}
+
+.content{
+  padding: 0;
+}

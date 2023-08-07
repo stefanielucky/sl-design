@@ -1,11 +1,13 @@
 ---
 aside: false
+footer: true
 ---
 
-<MobileModule/>
+<script setup>
 
-<div class="mobile-content">
+</script>
 
+# 单独使用手机模型组件
 # 111
 # 111
 # 111
@@ -23,39 +25,4 @@ aside: false
 console.log('Hello, VitePress!')
 ```
 
-
-# 222
-# 222
-# 222
-# 222
-# 222
-# 222
-
-
-# 111
-# 111
-# 111
-# 111
-# 111
-
-# 222
-# 222
-# 222
-# 222
-# 222
-# 222
-
-# 111
-# 111
-# 111
-# 111
-# 111
-
-# 222
-# 222
-# 222
-# 222
-# 222
-# 222
-
-</div>
+<MobileDemoSingle />
