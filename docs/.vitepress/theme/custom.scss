@@ -3,12 +3,13 @@
 :root {
   --vp-c-bg: #f0f2f5;
   --vp-c-bg-alt: #fff;
+  // --vp-code-block-bg: #fafafa;
 }
 
 /* 使用mobile-demo-single，需修改doc展示宽度 */
 .vp-doc{
   position: relative;
-  max-width: calc(100vw - 920px);
+  max-width: calc(100vw - 860px);
   min-height: 1000px;
 }
 
@@ -37,4 +38,9 @@
 
 .VPNavBar.has-sidebar .curtain{
   left: 260px;
+}
+
+// 隐藏深色模式
+.VPNavBarAppearance{
+  display: none;
 }

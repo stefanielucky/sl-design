@@ -2,9 +2,11 @@
   <div class="mobile-demo-single">
     <div class="header">{{ props.list.title }}</div>
     <div v-for="(item, index) in props.list.data" :key="index">
-      <span class="title">{{ item.title }}</span>
-      <div class="component-box">
-        <component :is="item.component"></component>
+      <div class="item-box">
+        <span class="title">{{ item.title }}</span>
+        <div class="component-box">
+          <component :is="item.component"></component>
+        </div>
       </div>
     </div>
   </div>
