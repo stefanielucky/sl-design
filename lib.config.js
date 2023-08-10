@@ -1,3 +1,5 @@
+// 配置参考 https://juejin.cn/post/7255514764754894907?searchId=20230810094951DBABB962670772C9051B
+
 const path = require("path")
 const fs = require("fs-extra")
 // 引入 vite 的 build 方法，进行编译构建
