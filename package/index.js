@@ -1,7 +1,7 @@
 
 import HXInput from './hx-input/hx-input.vue'
 
-export const components = [
+const components = [
   HXInput
 ]
 
