@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
     "mand-mobile-next": "0.0.1-alpha.14",
     "sass": "^1.64.2"
   },
@@ -11,6 +12,7 @@
     "vitepress": "^1.0.0-beta.7"
   },
   "scripts": {
+    "build": "vite build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
