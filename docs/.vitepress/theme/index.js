@@ -9,8 +9,6 @@ export default {
   extends: DefaultTheme,
   enhanceApp(ctx) {
     // register your custom global components
-
-    // console.log('Hxdesign', Hxdesign)
     ctx.app.use(Hxdesign)
     ctx.app.component('MobileDemoSingle', MobileDemoSingle)
   }

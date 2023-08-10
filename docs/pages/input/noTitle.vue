@@ -1,17 +1,17 @@
 <template>
   <section class="mobile">
     <div class="input-basic">
-      <HXInput
+      <hx-input
         v-model="value"
         placeholder="暗提示"
       >
-      </HXInput>
+      </hx-input>
     </div>
   </section>
 </template>
 
 <script setup>
-import { HXInput } from "../../../package/index";
+
 import { ref } from "vue";
 const value = ref("");
 </script>

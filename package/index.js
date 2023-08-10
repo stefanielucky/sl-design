@@ -1,7 +1,7 @@
 
 import HXInput from './hx-input/hx-input.vue'
 
-const components = [
+export const components = [
   HXInput
 ]
 
@@ -9,8 +9,7 @@ export { HXInput }
 
 export const install = (app) => {
   components.forEach((component) => {
-    component.name &&
-      app.component(component.name, component)
+      app.component(component.__name, component)
   })
 }
 

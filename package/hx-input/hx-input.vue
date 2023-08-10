@@ -57,14 +57,5 @@ defineExpose({
 </script>
 
 <style scoped lang="scss">
-.hxInput {
-  // :deep(.md-field-item-title) {
-  //   color: blueviolet;
-  // }
-
-  // :deep(.md-input-item-input) {
-  //   color: var(--md-input-item-color);
-  //   line-height: 0.5;
-  // }
-}
+@import "./hx-input.scss";
 </style>

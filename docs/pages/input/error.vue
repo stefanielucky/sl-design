@@ -8,7 +8,7 @@ export default {
 
 <script setup lang="ts">
 import { Field } from "mand-mobile-next";
-import { HXInput } from "../../../package/index";
+
 import { ref } from 'vue'
 
 const val = ref('1999999999999')
@@ -19,13 +19,13 @@ const val = ref('1999999999999')
     class="md-example-child md-example-child-input-item-5"
   >
     <Field>
-      <HXInput
+      <hx-input
         v-model="val"
         type="phone"
         title="手机号码"
         error="手机号码无效"
         clearable
-      ></HXInput>
+      ></hx-input>
     </Field>
   </div>
 </template>
