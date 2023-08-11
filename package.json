@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
     "mand-mobile-next": "0.0.1-alpha.14",
-    "sass": "^1.64.2"
+    "sass": "^1.64.2",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue-template-compiler": "^2.7.14"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-beta.7",
@@ -16,6 +19,8 @@
   "scripts": {
     "build": "vite build",
     "build:lib": "vite build -c lib.config.js",
+    "build:chat": "vite build -c chat.config.js",
+    "build:src": "npm run clean && npm run build-es && npm run build-cjs && npm run build-umd",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
