@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: './package/index.js',
-      name: 'hx-design',
-      fileName: (format) => `hx-design.${format}.js`
+      name: 'garfield-design',
+      fileName: (format) => `garfield-design.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],

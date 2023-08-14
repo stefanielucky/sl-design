@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "hx-design"
+  name: "garfield-design"
   text: "a hx ui "
   tagline: My great project tagline
   actions:

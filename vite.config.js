@@ -20,7 +20,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "./dist/hx-design/es",
+          dir: "./dist/garfield-design/es",
         },
         {
           //打包格式
@@ -31,7 +31,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "./dist/hx-design/lib",
+          dir: "./dist/garfield-design/lib",
         },
       ],
     },
