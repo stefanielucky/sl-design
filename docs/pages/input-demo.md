@@ -1,3 +1,8 @@
+---
+prev: false
+next: false
+---
+
 <script setup>
   import basic from './input/basic.vue'
   import disabled from './input/disabled.vue'

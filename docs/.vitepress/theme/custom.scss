@@ -6,10 +6,12 @@
 }
 
 /* 使用mobile-demo-single，需修改doc展示宽度 */
-.vp-doc {
-  position: relative;
-  max-width: calc(100vw - 860px);
-  min-height: 1000px;
+@media screen and (min-width: 1300px) {
+  .vp-doc {
+    position: relative;
+    max-width: calc(100vw - 860px);
+    min-height: 1000px;
+  }
 }
 
 .content {
@@ -39,6 +41,21 @@
   left: 260px;
 }
 
+
+@media screen and (max-width: 960px) {
+  .VPContent {
+    padding-left: 0 !important;
+  }
+
+  .VPNavBar.has-sidebar .content {
+    padding-left: 0px !important;
+  }
+
+  .VPNavBar.has-sidebar .curtain {
+    left: 0px;
+  }
+}
+
 // 隐藏深色模式
 .VPNavBarAppearance {
   display: none !important;
@@ -56,6 +73,11 @@ html::-webkit-scrollbar{
 }
 
 // 手机模型样式
+@media screen and (max-width: 1300px) {
+  .mobile-model {
+    display: none;
+  }
+}
 .mobile-model{
   transform: scale(0.5);
   border-radius: 36px;

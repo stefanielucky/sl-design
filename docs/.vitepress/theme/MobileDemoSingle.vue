@@ -31,7 +31,7 @@ const props = defineProps(["list"]);
     z-index: 20;
     position: absolute;
     top: -150px;
-    left: -285px;
+    left: -30px;
     width: 100%;
     line-height: 100px;
     text-align: center;
@@ -43,10 +43,11 @@ const props = defineProps(["list"]);
     z-index: 20;
     position: absolute;
     top: -50px;
-    left: -285px;
+    left: -30px;
     width: 100%;
     background-color: #f7f8fa;
     min-height: 1400px;
+    padding-top: 20px;
   }
 
   .component-box {
