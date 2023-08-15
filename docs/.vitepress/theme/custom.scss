@@ -44,7 +44,7 @@
   display: none !important;
 }
 
-
+// 隐藏滚动条
 html {
   overflow-x: hidden;
   overflow-y: scroll;
@@ -55,6 +55,7 @@ html::-webkit-scrollbar{
   display: none;
 }
 
+// 手机模型样式
 .mobile-model{
   transform: scale(0.5);
   border-radius: 36px;
