@@ -8,5 +8,9 @@ export default [{
       text: 'input',
       link: '/pages/input'
     },
+    {
+      text: 'toast',
+      link: '/pages/toast'
+    }
   ]
 }]
