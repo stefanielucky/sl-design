@@ -4,13 +4,13 @@ next: false
 ---
 
 <script setup>
-  import basic from './input/basic.vue'
-  import disabled from './input/disabled.vue'
-  import loading from './input/loading.vue'
-  import error from './input/error.vue'
-  import right from './input/right.vue'
-  import noTitle from './input/noTitle.vue'
-  import icons from './input/icons.vue'
+  import basic from './demo/basic.vue'
+  import disabled from './demo/disabled.vue'
+  import loading from './demo/loading.vue'
+  import error from './demo/error.vue'
+  import right from './demo/right.vue'
+  import noTitle from './demo/noTitle.vue'
+  import icons from './demo/icons.vue'
 
   import { reactive, markRaw } from 'vue'
 

@@ -2,11 +2,11 @@ export default [{
   text: '简介',
   items: [{
       text: 'first',
-      link: '/intro/mobile-examples'
+      link: '/intro/first'
     },
     {
       text: 'second',
-      link: '/intro/api-examples'
+      link: '/intro/second'
     }
   ]
 }]

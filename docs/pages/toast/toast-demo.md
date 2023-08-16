@@ -1,5 +1,10 @@
+---
+prev: false
+next: false
+---
+
 <script setup>
-  import basicToast from './toast/basic.vue'
+  import basicToast from './demo/basic.vue'
 
   import { reactive, markRaw } from 'vue'
 

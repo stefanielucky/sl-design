@@ -7,7 +7,7 @@ next: false
 <div class="mobile-model">
   <iframe
     class="model-iframe"
-    src="/pages/input-demo"
+    src="/pages/input/input-demo"
   >
   </iframe>
 </div>
@@ -16,31 +16,31 @@ next: false
 
 ### 基础用法
 
-<<< @/pages/input/basic.vue
+<<< @/pages/input/demo/basic.vue
 
 ### 禁用状态
 
-<<< @/pages/input/disabled.vue
+<<< @/pages/input/demo/disabled.vue
 
 ### 加载状态
 
-<<< @/pages/input/loading.vue
+<<< @/pages/input/demo/loading.vue
 
 ### 错误状态
 
-<<< @/pages/input/error.vue
+<<< @/pages/input/demo/error.vue
 
 ### 右侧输入
 
-<<< @/pages/input/right.vue
+<<< @/pages/input/demo/right.vue
 
 ### 无标题
 
-<<< @/pages/input/noTitle.vue
+<<< @/pages/input/demo/noTitle.vue
 
 ### 带图标
 
-<<< @/pages/input/icons.vue
+<<< @/pages/input/demo/icons.vue
 
 # API
 

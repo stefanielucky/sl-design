@@ -7,7 +7,7 @@ next: false
 <div class="mobile-model">
   <iframe
     class="model-iframe"
-    src="/pages/toast-demo"
+    src="/pages/toast/toast-demo"
   >
   </iframe>
 </div>
@@ -16,4 +16,4 @@ next: false
 
 ### 基础用法
 
-<<< @/pages/toast/basic.vue
+<<< @/pages/toast/demo/basic.vue
