@@ -8,7 +8,7 @@ import path from 'path';
 export default defineConfig({
   build: {
     //打包文件目录
-    outDir: "lib/garfield-design",
+    outDir: "lib/sl-design",
     //压缩
     //minify: false,
     rollupOptions: {
@@ -29,7 +29,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "lib/garfield-design/es",
+          dir: "lib/sl-design/es",
         },
         {
           //打包格式
@@ -40,14 +40,14 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "lib/garfield-design/lib",
+          dir: "lib/sl-design/lib",
         },
       ],
     },
     lib: {
       entry: path.join(__dirname, './package/index.js'),
-      name: 'garfield-design',
-      fileName: 'garfield-design'
+      name: 'sl-design',
+      fileName: 'sl-design'
     },
   },
   plugins: [vue()],

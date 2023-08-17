@@ -20,7 +20,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "./dist/garfield-design/es",
+          dir: "./dist/sl-design/es",
         },
         {
           //打包格式
@@ -31,7 +31,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "./dist/garfield-design/lib",
+          dir: "./dist/sl-design/lib",
         },
       ],
     },

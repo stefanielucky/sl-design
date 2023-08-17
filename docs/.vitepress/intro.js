@@ -1,11 +1,11 @@
 export default [{
   text: '简介',
   items: [{
-      text: 'first',
+      text: '快速开始',
       link: '/intro/first'
     },
     {
-      text: 'second',
+      text: '设计原则',
       link: '/intro/second'
     }
   ]

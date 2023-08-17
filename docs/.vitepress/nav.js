@@ -4,7 +4,7 @@ export default [{
   },
   {
     text: '简介',
-    link: '/intro/index'
+    link: '/intro/first'
   },
   {
     text: '组件',
