@@ -1,7 +1,7 @@
 {
   "name": "sl-design",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple library of front-end components, including a unified UI design and interactive experience.",
   "scripts": {
     "dev": "vite",
     "build:doc": "vite build -c lib.config.js",
