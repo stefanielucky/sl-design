@@ -1,19 +1,19 @@
 <template>
   <Field>
-    <hx-input
+    <sl-input
       v-model="val"
       title="文本"
       :is-virtual-keyboard="true"
       placeholder="请输入文本"
     />
-    <hx-input
+    <sl-input
       v-model="val"
       title="手机号"
       type="phone"
       placeholder="请输入手机号"
       :maxlength="11"
     />
-    <hx-input
+    <sl-input
       v-model="val"
       title="银行卡"
       type="bankCard"
@@ -23,25 +23,25 @@
       <template #right>
         <Icon name="id-card" size="lg"></Icon>
       </template>
-    </hx-input>
+    </sl-input>
 
-    <hx-input title="密码" type="password" placeholder="请输入密码">
+    <sl-input title="密码" type="password" placeholder="请输入密码">
       <template #right>
         <Icon name="invisible" size="lg"></Icon>
       </template>
-    </hx-input>
-    <hx-input
+    </sl-input>
+    <sl-input
       v-model="val"
       title="金额"
       type="money"
       placeholder="请输入金额"
       :maxlength="13"
     />
-    <hx-input title="日期" placeholder="请输入日期">
+    <sl-input title="日期" placeholder="请输入日期">
       <template #right>
         <Icon name="arrow-right" size="lg"></Icon>
       </template>
-    </hx-input>
+    </sl-input>
   </Field>
 </template>
 

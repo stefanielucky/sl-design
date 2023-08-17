@@ -1,7 +1,7 @@
 <template>
   <section class="mobile">
     <div class="input-basic">
-      <hx-input
+      <sl-input
         title="标题"
         v-model="value1"
         placeholder="暗提示"
@@ -9,8 +9,8 @@
       <template #left>
             <Icon name="id-card" size="lg"></Icon>
           </template>
-      </hx-input>
-      <hx-input
+      </sl-input>
+      <sl-input
         title="标题"
         v-model="value2"
         placeholder="暗提示"
@@ -18,7 +18,7 @@
       <template #right>
             <Icon name="id-card" size="lg"></Icon>
           </template>
-      </hx-input>
+      </sl-input>
     </div>
   </section>
 </template>

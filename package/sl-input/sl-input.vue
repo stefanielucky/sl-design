@@ -1,8 +1,8 @@
 <template>
-  <div class="hxInput">
+  <div class="SLInput">
     <InputItem
       v-bind="attrs"
-      ref="hxInputRef"
+      ref="SLInputRef"
       :title="title"
       :placeholder="placeholder"
       @blur="codeCheck"
@@ -50,12 +50,12 @@ function codeCheck() {
   }
 }
 
-const hxInputRef = ref(null);
+const SLInputRef = ref(null);
 defineExpose({
-  hxInputRef,
+  SLInputRef,
 });
 </script>
 
 <style scoped lang="scss">
-@import "./hx-input.scss";
+@import "./sl-input.scss";
 </style>

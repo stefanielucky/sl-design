@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "garfield-design"
-  text: "a hx ui "
+  text: "a sample ui "
   tagline: My great project tagline
   actions:
     - theme: brand

@@ -1,13 +1,13 @@
 <template>
   <section class="mobile">
     <div class="input-basic">
-      <hx-input
+      <sl-input
         title="标题"
         v-model="value"
         placeholder="暗提示"
         align="right"
       >
-      </hx-input>
+      </sl-input>
     </div>
   </section>
 </template>

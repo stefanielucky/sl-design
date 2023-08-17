@@ -1,11 +1,11 @@
 
-import HXInput from './hx-input/hx-input.vue'
+import SLInput from './sl-input/sl-input.vue'
 
 const components = [
-  HXInput
+  SLInput
 ]
 
-export { HXInput }
+export { SLInput }
 
 export const install = (app) => {
   components.forEach((component) => {

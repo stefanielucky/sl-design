@@ -19,13 +19,13 @@ const val = ref('1999999999999')
     class="md-example-child md-example-child-input-item-5"
   >
     <Field>
-      <hx-input
+      <sl-input
         v-model="val"
         type="phone"
         title="手机号码"
         error="手机号码无效"
         clearable
-      ></hx-input>
+      ></sl-input>
     </Field>
   </div>
 </template>

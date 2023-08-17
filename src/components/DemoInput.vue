@@ -2,12 +2,12 @@
   <div>
     <div class="field-box">
       <Field>
-        <HXInput type="bankCard" v-model="cardNum" code="1001">
+        <SLInput type="bankCard" v-model="cardNum" code="1001">
           <template #right>
             <Icon name="id-card" size="lg"></Icon>
           </template>
-        </HXInput>
-        <HXInput
+        </SLInput>
+        <SLInput
           title="手机号覆盖例子"
           type="phone"
           v-model="phone"
@@ -16,16 +16,16 @@
           code="1002"
           @blur="checkPhoneNum"
           clearable
-        ></HXInput>
-        <HXInput
+        ></SLInput>
+        <SLInput
           title="金额"
           type="money"
           v-model="money"
           @keydown="onInputKeydown"
           @change="onInputChange"
           placeholder="money xx, xxx.xxxx"
-        ></HXInput>
-        <HXInput
+        ></SLInput>
+        <SLInput
           title="密码"
           type="password"
           v-model="password"
@@ -34,7 +34,7 @@
           <template #right>
             <Icon name="invisible" size="lg"></Icon>
           </template>
-        </HXInput>
+        </SLInput>
       </Field>
     </div>
     <!-- <button @click="clearInput">点击获取节点</button> -->
@@ -44,7 +44,7 @@
 
 <script setup>
 import { Field, Icon } from "mand-mobile-next";
-import { HXInput } from "../../package/index.js";
+import { SLInput } from "../../package/index.js";
 import { ref } from "vue";
 
 // 校验方法
