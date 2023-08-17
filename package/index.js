@@ -1,11 +1,13 @@
 
 import SLInput from './sl-input/sl-input.vue'
+import SLButton from './sl-button/sl-button.vue'
 
 const components = [
-  SLInput
+  SLInput,
+  SLButton
 ]
 
-export { SLInput }
+export { SLInput,SLButton }
 
 export const install = (app) => {
   components.forEach((component) => {

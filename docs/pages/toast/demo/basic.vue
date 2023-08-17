@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="toast-basic">
     <Button @click="showTextToast">点击展示</Button>
   </div>
 </template>
@@ -14,3 +14,9 @@ const showTextToast = () => {
   }, 1500)
 }
 </script>
+
+<style lang="scss" scoped>
+.toast-basic{
+  padding: 20px 0;
+}
+</style>

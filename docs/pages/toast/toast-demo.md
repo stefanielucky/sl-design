@@ -12,7 +12,7 @@ next: false
     title: 'Input',
     data: [
       {
-        title: 'toast',
+        title: '基础用法',
         component: markRaw(basicToast),
       }
     ]

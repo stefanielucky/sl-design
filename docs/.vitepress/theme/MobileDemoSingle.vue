@@ -48,6 +48,7 @@ const props = defineProps(["list"]);
     background-color: #f7f8fa;
     min-height: 1400px;
     padding-top: 20px;
+    padding-bottom: 200px;
   }
 
   .component-box {
